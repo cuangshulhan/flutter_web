@@ -97,10 +97,13 @@ class _LandingPageState extends State<LandingPage> {
                         ),
                       ],
                     ),
-                    Image.asset(
-                      'btn.png',
-                      width: 163,
-                      height: 53,
+                    InkWell(
+                      onTap: () {},
+                      child: Image.asset(
+                        'btn.png',
+                        width: 163,
+                        height: 53,
+                      ),
                     ),
                   ],
                 ),
